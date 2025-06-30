@@ -1,1 +1,1 @@
-A very bad art program, but still better than @DuckDood's readST. (github.com/DuckDood/readST)
+A very bad art program, but still better than @DuckDood's readST. (https://github.com/DuckDood/readST)
