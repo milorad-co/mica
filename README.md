@@ -2,7 +2,7 @@
 A very bad art program, but still better than @DuckDood's readST. (https://github.com/DuckDood/readST)
 # How to Install
 ## For Linux and Windows
-GUMP is intended for Debian-based Linux distros and Windows 11 (although it will likely work fine on Windows 10). GUMP for Linux is temporarily unavailable due to compilation issues.
+GUMP is intended for Debian-based Linux distros and Windows 11 (although it will likely work fine on Windows 10).
 1. Install the [Milorad Application Installer](https://github.com/milorad-co/milorad-installer) for the corresponding OS.
 2. Run the command `sudo milorad install gump`
 ## Developer GUMP
