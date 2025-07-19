@@ -1,5 +1,5 @@
 # GNU Useless Manipulation Program
-A very bad art program, but still better than @DuckDood's readST. (https://github.com/DuckDood/readST)
+A very bad art program, but still better than [DuckDood's readST](https://github.com/DuckDood/readST).
 # How to Install
 ## For Linux and Windows
 GUMP is intended for Debian-based Linux distros and Windows 11 (although it will likely work fine on Windows 10).
