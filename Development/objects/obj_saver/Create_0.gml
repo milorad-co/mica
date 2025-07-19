@@ -1,0 +1,11 @@
+ini_open(game_save_id + writefile + ".mif");
+ini_write_string("mif", "main", "!MIF![1600](800)");
+savestring = "";
+line = 0;
+writefile = writefile;
+r = 0;
+g = 0;
+b = 0;
+_x = 1600;
+_y = 800;
+alarm_set(0, 1);

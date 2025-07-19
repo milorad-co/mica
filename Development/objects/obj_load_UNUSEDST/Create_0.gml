@@ -1,0 +1,15 @@
+wordstring = "";
+length = "";
+file = "";
+contents = "";
+pixelred = "";
+pixelgreen = "";
+pixelbeans = "";
+_end = 3;
+target = 2;
+yy = 1;
+_x = 0;
+_y = 0;
+pixeltarget = 0;
+draw_set_font(fnt_game);
+depth = -9999;
