@@ -6,6 +6,6 @@ First, install [the Milorad Application Installer](https://github.com/milorad-co
 Linux: Then, run the command `sudo milorad install gump`<br>
 Windows: Run the command `milorad install gump` **while Git Bash is administrator** on Windows.
 # Known Issues
-The Linux and development versions are slightly outdated. This will be fixed in the next patch.
+The Linux version is slightly outdated. This will be fixed in the next patch.
 # Patches (For Windows and Linux)
 Beta 0 - GUMP was created.
