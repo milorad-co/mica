@@ -26,4 +26,4 @@ main="!MIF![3]{3}"
 `[3]` is the width of the image.<br>
 `{3}` is the height of the image.<br>
 `1=`, `2=`, and `3=` are the line numbers.<br>
-`ÿ  ` ect. is the ascii code that corresponds to the colour of the pixel. ÿ is extended ascii character 255. <space> is the ascii character 32. RGB colour 255 32 32 is a slightly off red pixel. The ascii characters <control codes> (0-31), " (34), = 61, and <delete> (127) cannot be used.
+`ÿ  ` ect. is the ascii code that corresponds to the colour of the pixel. ÿ is extended ascii character 255. [space] is the ascii character 32. RGB colour 255 32 32 is a slightly off red pixel. The ascii characters [control codes] (0-31), " (34), = 61, and [delete] (127) cannot be used, and are replaced with [space] (32), # (35), > (62), and € (128), respectively, are used instead.
