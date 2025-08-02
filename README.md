@@ -10,6 +10,7 @@ The Linux version is slightly outdated. This will be fixed in the next patch.
 # Patches [Stable]
 Beta 0 - GUMP was created.
 # Patches [Development]
-Dev 2 - Cleaned some things up.
-Dev 1 [Beta 1] - Attempted to fix broken loading.<br>
+Dev 3 - Cleaned some things up.<br>
+Dev 2 - Fixed broken loading.<br>
+Dev 1 - Attempted to make loading faster, broke it instead.<br>
 Dev 0 [Beta 0] - GUMP was created.
