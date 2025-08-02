@@ -1,51 +1,71 @@
-repeat 1200
+repeat 400
 {
 	_x --;
 	c = c_black;
-	c = draw_getpixel(x, y);
+	if surface_exists(application_surface)
+	{
+		c = surface_getpixel(application_surface, x, y);
+	}
 	r = colour_get_red(c);
 	g = colour_get_green(c);
 	b = colour_get_blue(c);
-	if g > 31 {
-		if g != 34 {
-			if g != 127 {
-				if g != 129 {
-					if g != 141 {
-						if g != 143 or 144 {
-							if g != 157 {
-								if g != 160 {
-									if g != 173 {
+	if g > 31 
+	{
+		if g != 34 
+		{
+			if g != 127 
+			{
+				if g != 129 
+				{
+					if g != 141 
+					{
+						if g != 143 or 144 
+						{
+							if g != 157 
+							{
+								if g != 160 
+								{
+									if g != 173 
+									{
 										savestring += chr(g);
 									}
-									else {
+									else 
+									{
 										savestring += chr(172);
 									}
 								}
-								else {
+								else 
+								{
 									savestring += chr(159);
 								}
 							}
-							else {
+							else 
+							{
 								savestring += chr(156);
 							}
 						}
-						else {
+						else 
+						{
 							savestring += chr(142);
 						}
 					}
-					else {
+					else 
+					{
 						savestring += chr(140);
 					}
 				}
-				else {
+				else 
+				{
 					savestring += "€";
 				}
 			}
-			else {
+			else 
+			{
 				savestring += "~";
 			}
 		}
-		else {
+		else 
+		{
 			savestring += "#";
 		}
 	}
@@ -57,40 +77,54 @@ repeat 1200
 	{
 		if b != 34
 		{
-			if b != 127 {
-				if b != 129 {
-					if b != 141 {
-						if b != 143 or 144 {
-							if b != 157 {
-								if b != 160 {
-									if b != 173 {
+			if b != 127 
+			{
+				if b != 129 
+				{
+					if b != 141 
+					{
+						if b != 143 or 144 
+						{
+							if b != 157 
+							{
+								if b != 160 
+								{
+									if b != 173 
+									{
 										savestring += chr(b);
 									}
-									else {
+									else 
+									{
 										savestring += chr(172);
 									}
 								}
-								else {
+								else 
+								{
 									savestring += chr(159);
 								}
 							}
-							else {
+							else
+							{
 								savestring += chr(156);
 							}
 						}
-						else {
+						else
+						{
 							savestring += chr(142);
 						}
 					}
-					else {
+					else 
+					{
 						savestring += chr(140);
 					}
 				}
-				else {
+				else
+				{
 					savestring += "€";
 				}
 			}
-			else {
+			else 
+			{
 				savestring += "~";
 			}
 		}
@@ -107,40 +141,54 @@ repeat 1200
 	{
 		if r != 34
 		{
-			if r != 127 {
-				if r != 129 {
-					if r != 141 {
-						if r != 143 or 144 {
-							if r != 157 {
-								if r != 160 {
-									if r != 173 {
+			if r != 127 
+			{
+				if r != 129 
+				{
+					if r != 141 
+					{
+						if r != 143 or 144 
+						{
+							if r != 157 
+							{
+								if r != 160 
+								{
+									if r != 173
+									{
 										savestring += chr(r);
 									}
-									else {
+									else
+									{
 										savestring += chr(172);
 									}
 								}
-								else {
+								else 
+								{
 									savestring += chr(159);
 								}
 							}
-							else {
+							else 
+							{
 								savestring += chr(156);
 							}
 						}
-						else {
+						else 
+						{
 							savestring += chr(142);
 						}
 					}
-					else {
+					else 
+					{
 						savestring += chr(140);
 					}
 				}
-				else {
+				else 
+				{
 					savestring += "€";
 				}
 			}
-			else {
+			else 
+			{
 				savestring += "~";
 			}
 		}
