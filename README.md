@@ -9,9 +9,3 @@ Linux: In your terminal, run the command `wget "https://milorad-co.github.io/Dow
 # Known Issues
 1. On the Linux version, files are saved as `FILENAME[newline].EXTENSION`, and GUMP attempts to load them as `FILENAME.EXTENSION[newline]`, preventing GUMP from finding them.
 2. On the Linux version, backspace does not work.
-# Patches [Stable]
-v0.0.1 - Made loading much faster and more memory efficient.<br>
-v0.0.0 - GUMP was created.
-# Patches [Development]
-Dev 1 [v0.0.1] - Made loading much faster and more memory efficient.<br>
-Dev 0 [v0.0.2] - GUMP was created.
