@@ -13,5 +13,5 @@ Linux: In your terminal, run the command `wget "https://milorad-co.github.io/Dow
 v0.0.1 - Made loading much faster and more memory efficient.<br>
 v0.0.0 - GUMP was created.
 # Patches [Development]
-Dev 1 [v0.0.0] - Made loading much faster and more memory efficient.<br>
-Dev 0 [v0.0.1] - GUMP was created.
+Dev 1 [v0.0.1] - Made loading much faster and more memory efficient.<br>
+Dev 0 [v0.0.2] - GUMP was created.
