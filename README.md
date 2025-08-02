@@ -4,7 +4,7 @@ GUMP is a... "minimalist" art program that has very few features.
 # How to Install
 The compiled stable builds of GUMP can be found on the [software page of our website](https://milorad-co.github.io/software.htm), but can also be installed in the following ways:<br>
 Windows: Run the command `Invoke-WebRequest -Uri "https://milorad-co.github.io/Downloads/GUMP.zip" -OutFile "$env:UserProfile\Downloads\GUMP.zip"` in Windows PowerShell.<br>
-Linux: In your terminal, run the command `wget "https://milorad-co.github.io/Downloads/GUMP.tar.gz"`
+Linux: In your terminal, run the command `wget "https://milorad-co.github.io/Downloads/GUMP.AppImage"`
 # Known Issues
 The Linux version is slightly outdated. This will be fixed in the next patch.
 # Patches [Stable]
