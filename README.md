@@ -10,4 +10,5 @@ The Linux version is slightly outdated. This will be fixed in the next patch.
 # Patches [Stable]
 Beta 0 - GUMP was created.
 # Patches [Development]
+Dev 1 [Beta 1] - Made loading much faster and more memory efficient.
 Dev 0 [Beta 0] - GUMP was created.
