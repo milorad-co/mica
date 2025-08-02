@@ -7,7 +7,7 @@ The compiled stable builds of GUMP can also be found [here](https://milorad-co.g
 Windows: Run the command `Invoke-WebRequest -Uri "https://milorad-co.github.io/Downloads/GUMP.zip" -OutFile "$env:UserProfile\Downloads\GUMP.zip"` in Windows PowerShell.<br>
 Linux: In your terminal, run the command `wget "https://milorad-co.github.io/Downloads/GUMP.AppImage"`.
 # Known Issues
-1. On the Linux version, files are saved as `FILENAME[newline].EXTENSION`, meaning that GUMP cannot find them.
+1. On the Linux version, files are saved as `FILENAME[newline].EXTENSION`, preventing GUMP from finding them.
 2. On the Linux version, backspace does not work.
 # Patches [Stable]
 v0.0.1 - Made loading much faster and more memory efficient.
