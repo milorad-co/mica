@@ -84,8 +84,8 @@
     {"id":{"name":"rm_pngjpg","path":"rooms/rm_pngjpg/rm_pngjpg.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_pngjpg","path":"rooms/rm_pngjpg/rm_pngjpg.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_pngjpg","path":"rooms/rm_pngjpg/rm_pngjpg.yy",},},
     {"roomId":{"name":"rm_st","path":"rooms/rm_st/rm_st.yy",},},
   ],
   "templateType": "game",
