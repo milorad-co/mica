@@ -1,4 +1,2 @@
-wordstring = ""; 
-spr_importedfile = spr_fallback;
-global.saving = 0;
+filename = ""; 
 depth = -9999;
