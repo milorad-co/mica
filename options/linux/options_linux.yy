@@ -8,7 +8,7 @@
   "option_linux_display_name": "GNU Useless Manipulation Program",
   "option_linux_display_splash": false,
   "option_linux_enable_steam": false,
-  "option_linux_homepage": "oogaboogachoogalooga.org",
+  "option_linux_homepage": "https://milorad-co.github.io/software.htm",
   "option_linux_icon": "icons/64.png",
   "option_linux_interpolate_pixels": false,
   "option_linux_long_desc": "Oooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga \r\nOooga booga chooga looga\r\nOooga booga chooga looga",
@@ -20,5 +20,5 @@
   "option_linux_start_fullscreen": true,
   "option_linux_sync": false,
   "option_linux_texture_page": "2048x2048",
-  "option_linux_version": "1.0.0.0",
+  "option_linux_version": "0.1.0",
 }

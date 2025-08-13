@@ -1,7 +1,9 @@
-draw_text(0, 64, "Current Line Progress: " + string(x) + "/1600");
-draw_text(0, 80, "Lines Complete: " + string(line) + "/800");
+if stop == 0
+{
+	draw_text(32, 800, "Lines Loaded: " + string(line) + "/800");
+}
 surface_set_target(draw);
-if stop = 0
+if stop == 0
 {
 	repeat 3200
 	{
@@ -17,10 +19,10 @@ if stop = 0
 		draw_sprite_ext(spr_mifdraw, 0, x, y, 1, 1, 0, make_colour_rgb(r, g, b), 1);
 		target ++;
 		x ++;
-		if _x < 1 
+		if _x < 1
 		{
-			ini_open(game_save_id + readfile);
-			contents = ini_read_string("mif", string(line), "u loser u have no line " + string(line));
+			ini_open(program_directory + readfile);
+			contents = ini_read_string("mif", string(y), "");
 			ini_close();
 			target = 0;
 			line ++;
@@ -28,7 +30,7 @@ if stop = 0
 			_y --;
 			reset --;
 			y ++;
-			x = 0;
+			x = 32;
 			if _y < 1
 			{
 				stop = 1;

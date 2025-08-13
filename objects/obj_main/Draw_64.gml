@@ -1,0 +1,2 @@
+draw_text(x, y, "Brush Size: " + string(obj_paint.xscale * 8));
+draw_text(x, y - 20, "Files are saved to and loaded from " + program_directory);

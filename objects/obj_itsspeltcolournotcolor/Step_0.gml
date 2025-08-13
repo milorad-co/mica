@@ -3,7 +3,8 @@ if position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_le
 	global.selected = 2;
 	numberask = 1;
 }
-if global.selected == 2 and numstring != "Number too high. Please try again." {
+if global.selected == 2 and numstring != "Number too high. Please try again." 
+{
 	if keyboard_check_pressed(vk_anykey) and string(keyboard_string) = 1 or string(keyboard_string) = 2 or string(keyboard_string) = 3 or string(keyboard_string) = 4 or string(keyboard_string) = 5 or string(keyboard_string) = 6 or string(keyboard_string) = 7 or string(keyboard_string) = 8 or string(keyboard_string) = 9 or string(keyboard_string) = 0
 	{
 		numstring += string(keyboard_string);

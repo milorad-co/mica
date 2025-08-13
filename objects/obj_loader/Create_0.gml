@@ -1,6 +1,6 @@
 instance_destroy(obj_draw);
-ini_open(game_save_id + readfile);
-contents = ini_read_string("mif", "main", "!MIF![1600](700)");
+ini_open(program_directory + readfile);
+contents = ini_read_string("mif", "main", "!MIF![1600](800)");
 ini_close();
 length = "";
 str = "";
