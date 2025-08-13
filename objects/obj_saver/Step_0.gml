@@ -1,4 +1,4 @@
-repeat 400
+repeat 5000
 {
 	_x --;
 	c = c_black;
@@ -204,7 +204,7 @@ repeat 400
 	x ++;
 	if _x < 1
 	{
-		ini_open(game_save_id + writefile + ".mif");
+		ini_open(program_directory + writefile + ".mif");
 		ini_write_string("mif", string(line), savestring);
 		ini_close();
 		savestring = "";
@@ -212,7 +212,7 @@ repeat 400
 		_x = 1600;
 		_y --;
 		y ++;
-		x = 0;
+		x = 32;
 		if _y < 1
 		{
 			instance_destroy();
