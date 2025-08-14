@@ -21,7 +21,7 @@ if stop == 0
 		x ++;
 		if _x < 1
 		{
-			ini_open(program_directory + readfile);
+			ini_open(game_save_id + readfile);
 			contents = ini_read_string("mif", string(y), "");
 			ini_close();
 			target = 0;

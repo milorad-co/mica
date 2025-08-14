@@ -204,7 +204,7 @@ repeat 5000
 	x ++;
 	if _x < 1
 	{
-		ini_open(program_directory + writefile + ".mif");
+		ini_open(game_save_id + writefile + ".mif");
 		ini_write_string("mif", string(line), savestring);
 		ini_close();
 		savestring = "";

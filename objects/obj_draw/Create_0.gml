@@ -1,11 +1,14 @@
 chill = 0;
-if active == 1 {
+if active == 1 
+{
 	steps = -10000;
-	if global.lastdrawnx != -1 and global.lastdrawny != -1 {
+	if global.lastdrawnx != -1 and global.lastdrawny != -1 
+	{
 		lastdrawnx = global.lastdrawnx;
 		lastdrawny = global.lastdrawny;
 	}
-	else {
+	else 
+	{
 		lastdrawnx = x;
 		lastdrawny = y;
 	}

@@ -16,14 +16,14 @@ if global.selected == 3 and wordstring != "Cannot find file.\n"
 	}
 	if keyboard_check_pressed(vk_enter)
 	{
-		if file_exists(program_directory + wordstring) 
+		if file_exists(game_save_id + wordstring) 
 		{
-			ini_open(program_directory + wordstring);
+			ini_open(game_save_id + wordstring);
 			result = ini_read_string("mif", "main", "FILETYPE_IS_NOT_MIF");
 			if result == "FILETYPE_IS_NOT_MIF"
 			{
 				instance_destroy(obj_draw);
-				spr_importedfile = sprite_add(program_directory + wordstring, 1, false, false, 0, 0);
+				spr_importedfile = sprite_add(game_save_id + wordstring, 1, false, false, 0, 0);
 				obj_importedfile.sprite_index = spr_importedfile;
 				obj_importedfile.image_yscale = 800 / obj_importedfile.sprite_height;
 				obj_importedfile.image_xscale = 1600 / obj_importedfile.sprite_width;
