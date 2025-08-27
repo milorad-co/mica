@@ -1,12 +1,12 @@
 {
-  "resourceType": "GMWindowsOptions",
-  "resourceVersion": "1.1",
+  "$GMWindowsOptions": "",
+  "%Name": "Windows",
   "name": "Windows",
   "option_windows_allow_fullscreen_switching": true,
   "option_windows_borderless": false,
   "option_windows_company_info": "Milorad",
-  "option_windows_copy_exe_to_dest": false,
   "option_windows_copyright_info": "SORRY, THE [Copyright Infringment Lawsuit] YOU ORDERED IS CURRENTLY [Never In Stock]",
+  "option_windows_copy_exe_to_dest": false,
   "option_windows_description_info": "GNU Useless Manipulation Program",
   "option_windows_disable_sandbox": true,
   "option_windows_display_cursor": true,
@@ -31,4 +31,6 @@
   "option_windows_use_splash": false,
   "option_windows_version": "0.0.1.0",
   "option_windows_vsync": false,
+  "resourceType": "GMWindowsOptions",
+  "resourceVersion": "2.0",
 }
