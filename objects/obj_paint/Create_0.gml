@@ -6,3 +6,4 @@ xscale = 0.125;
 yscale = 0.125;
 depth = -9999;
 buffersize = 1280020;
+mouseon = 0;
