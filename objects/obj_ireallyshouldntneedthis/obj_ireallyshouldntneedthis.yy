@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pngjpgbg",
-    "path":"sprites/spr_pngjpgbg/spr_pngjpgbg.yy",
+    "name":"spr_imgbg",
+    "path":"sprites/spr_imgbg/spr_imgbg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

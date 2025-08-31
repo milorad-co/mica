@@ -8,11 +8,11 @@ else
 }
 if position_meeting(mouse_x, mouse_y, self) and mouse_check_button(mb_left)
 {
-	global.selected = 1;
+	global.selected = 94;
 }
 else
 {
-	if global.selected = 1 and mouse_check_button(mb_left)
+	if global.selected = 94 and mouse_check_button(mb_left)
 	{
 		if global.set == 0
 		{
@@ -23,7 +23,7 @@ else
 			global.lastdrawnx = mouse_x;
 			global.lastdrawny = mouse_y;
 		}
-		instance_create_layer(mouse_x, mouse_y, "Instances", obj_drawline, {image_blend: make_colour_rgb(global.red, global.green, global.beans), image_xscale: xscale, image_yscale: yscale, active : 1, xtarget: mouse_x, ytarget: mouse_y, erase: false});
+		instance_create_layer(mouse_x, mouse_y, "Instances", obj_drawline, {image_blend: c_white, image_xscale: 5, image_yscale: 5, active: 1, xtarget: mouse_x, ytarget: mouse_y});
 	}
 }
 if mouse_wheel_up()

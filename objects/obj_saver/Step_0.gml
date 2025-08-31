@@ -1,11 +1,7 @@
 repeat 5000
 {
 	_x --;
-	c = c_black;
-	if surface_exists(application_surface)
-	{
-		c = surface_getpixel(application_surface, x, y);
-	}
+	c = surface_getpixel(global.surf[global.target], x, y);
 	r = colour_get_red(c);
 	g = colour_get_green(c);
 	b = colour_get_blue(c);
