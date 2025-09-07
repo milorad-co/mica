@@ -6,4 +6,4 @@ Download one of the releases - MICA.zip is for Windows, MICA.AppImage for Debian
 If you are on Windows, you should unzip MICA.zip, then start GUMP.exe. If you are on Linux, you can start MICA.AppImage without any setup.<br>
 If you are on MacOS, then use a different OS.
 # Known Issues (Stable, latest version)
-No current known issues.
+We have not found any issues, so we're not searching well enough.
