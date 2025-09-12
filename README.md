@@ -3,7 +3,7 @@ A very bad art program, but still better than [DuckDood's readST](https://github
 MICA is a... "minimalist" art program that has very few features.
 # How to Install
 ## Windows
-Download MICA-installer.exe and start it.
+Download MICA-installer.exe and use it to install MICA.
 ## Debian-Based Linux
 You can download and start MICA.AppImage without any setup.
 ## MacOS
