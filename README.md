@@ -13,5 +13,4 @@ Bad luck, neither we nor GameMaker have support for whatever OS you are using.
 # Compiling From Source
 [Download and install Gamemaker if you do not have it already](https://gamemaker.io/download), open this project's YYP file, and compile it using the "Create Executable" option.
 # Known Issues (Latest version)
-1. On Linux, MIF saving is completey broken!
-2. Loading MIFs on Linux is also extremely broken.
+The saving of MIF files is broken. We have no idea why, or how to fix it.
