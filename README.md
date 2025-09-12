@@ -6,5 +6,6 @@ Download one of the files from the latest release - MICA-installer.exe is for Wi
 If you are on Windows, you should install the app with MICA-installer.exe.<br>
 If you are on Linux, you can start MICA.AppImage without any setup.<br>
 If you are on MacOS, then use a different OS.
-# Known Issues (Stable, latest version)
-We have not found any issues, so we're not searching well enough.
+# Known Issues (Latest version)
+1. MIF saving is completey broken!
+2. Loading MIFs on Linux is also extremely broken.
