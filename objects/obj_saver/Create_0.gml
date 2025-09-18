@@ -1,7 +1,6 @@
-ini_open(game_save_id + writefile + ".mif");
+ini_open(game_save_id + fname);
 ini_write_string("mif", "main", "!MIF![1600](800)");
 savestring = "";
-writefile = writefile;
 line = 0;
 r = 0;
 g = 0;

@@ -10,14 +10,14 @@ if position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_le
 {
 	global.selected = 32;
 }
-if global.selected == 32 and fname != "Incorrect input.\n" 
+if global.selected == 32
 {
 	if keyboard_check_pressed(vk_enter) 
 	{
 		if filename_ext(fname) == ".mif"
 		{
 			ini_open(game_save_id + fname);	
-			instance_create_layer(32, 0, "Instances", obj_saver, {writefile : fname});
+			instance_create_layer(32, 0, "Instances", obj_saver, {fname: fname});
 		}
 		else
 		{

@@ -23,18 +23,8 @@ else
 			global.lastdrawnx = mouse_x;
 			global.lastdrawny = mouse_y;
 		}
-		instance_create_layer(mouse_x, mouse_y, "Instances", obj_drawline, {image_blend: c_white, image_xscale: 5, image_yscale: 5, active: 1, xtarget: mouse_x, ytarget: mouse_y});
+		instance_create_layer(mouse_x, mouse_y, "Instances", obj_draw, {image_blend: c_white, image_xscale: 5, image_yscale: 5});
 	}
-}
-if mouse_wheel_up()
-{
-	xscale += 0.1;
-	yscale += 0.1;
-}
-if mouse_wheel_down()
-{
-	xscale -= 0.1;
-	yscale -= 0.1;
 }
 if global.saving = 1
 {

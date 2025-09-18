@@ -5,5 +5,4 @@ if mouseon == 1
 	draw_set_colour(c_black);
 	draw_text(mouse_x + 32, mouse_y, "Paintbrush\n     Standard drawing tool.");
 	draw_set_colour(c_white);
-	draw_surface(global.surf[global.target], 32, 0);
 }

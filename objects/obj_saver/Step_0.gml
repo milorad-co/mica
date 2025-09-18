@@ -1,206 +1,126 @@
-repeat 5000
+repeat 1600
 {
+	// i call it a screen-to-mif plug, 'cause it rhymes with grug
 	_x --;
 	c = surface_getpixel(global.surf[global.target], x, y);
 	r = colour_get_red(c);
 	g = colour_get_green(c);
 	b = colour_get_blue(c);
-	if g > 31 
-	{
-		if g != 34 
-		{
-			if g != 127 
-			{
-				if g != 129 
-				{
-					if g != 141 
-					{
-						if g != 143 or 144 
-						{
-							if g != 157 
-							{
-								if g != 160 
-								{
-									if g != 173 
-									{
-										savestring += chr(g);
-									}
-									else 
-									{
-										savestring += chr(172);
-									}
-								}
-								else 
-								{
-									savestring += chr(159);
-								}
-							}
-							else 
-							{
-								savestring += chr(156);
-							}
-						}
-						else 
-						{
-							savestring += chr(142);
-						}
-					}
-					else 
-					{
-						savestring += chr(140);
-					}
-				}
-				else 
-				{
-					savestring += "€";
-				}
-			}
-			else 
-			{
-				savestring += "~";
-			}
-		}
-		else 
-		{
-			savestring += "#";
-		}
-	}
-	else
+	if g < 32
 	{
 		savestring += " ";
 	}
-	if b > 31
+	else
 	{
-		if b != 34
+		switch (g)
 		{
-			if b != 127 
-			{
-				if b != 129 
-				{
-					if b != 141 
-					{
-						if b != 143 or 144 
-						{
-							if b != 157 
-							{
-								if b != 160 
-								{
-									if b != 173 
-									{
-										savestring += chr(b);
-									}
-									else 
-									{
-										savestring += chr(172);
-									}
-								}
-								else 
-								{
-									savestring += chr(159);
-								}
-							}
-							else
-							{
-								savestring += chr(156);
-							}
-						}
-						else
-						{
-							savestring += chr(142);
-						}
-					}
-					else 
-					{
-						savestring += chr(140);
-					}
-				}
-				else
-				{
-					savestring += "€";
-				}
-			}
-			else 
-			{
+			case 34:
+				savestring += "#";
+			break;
+			case 127:
 				savestring += "~";
-			}
+			break;
+			case 129:
+				savestring += "€";
+			break;
+			case 141:
+				savestring += "Œ";
+			break;
+			case 143:
+				savestring += "Ž";
+			break;
+			case 144:
+				savestring += "Ž";
+			break;
+			case 157:
+				savestring += "œ";
+			break;
+			case 173:
+				savestring += "¬";
+			break;
+			default:
+				savestring += chr(g);
+			break;
 		}
-		else
-		{
-			savestring += "#";
-		}
+	}
+	if b < 32
+	{
+		savestring += " ";
 	}
 	else
 	{
-		savestring += " ";
-	}	
-	if r > 31
-	{
-		if r != 34
+		switch (b)
 		{
-			if r != 127 
-			{
-				if r != 129 
-				{
-					if r != 141 
-					{
-						if r != 143 or 144 
-						{
-							if r != 157 
-							{
-								if r != 160 
-								{
-									if r != 173
-									{
-										savestring += chr(r);
-									}
-									else
-									{
-										savestring += chr(172);
-									}
-								}
-								else 
-								{
-									savestring += chr(159);
-								}
-							}
-							else 
-							{
-								savestring += chr(156);
-							}
-						}
-						else 
-						{
-							savestring += chr(142);
-						}
-					}
-					else 
-					{
-						savestring += chr(140);
-					}
-				}
-				else 
-				{
-					savestring += "€";
-				}
-			}
-			else 
-			{
+			case 34:
+				savestring += "#";
+			break;
+			case 127:
 				savestring += "~";
-			}
+			break;
+			case 129:
+				savestring += "€";
+			break;
+			case 141:
+				savestring += "Œ";
+			break;
+			case 143:
+				savestring += "Ž";
+			break;
+			case 144:
+				savestring += "Ž";
+			break;
+			case 157:
+				savestring += "œ";
+			break;
+			case 173:
+				savestring += "¬";
+			break;
+			default:
+				savestring += chr(b);
+			break;
 		}
-		else
-		{
-			savestring += "#";
-		}
+	}
+	if r < 32
+	{
+		savestring += " ";
 	}
 	else
 	{
-		savestring += " ";
+		switch (r)
+		{
+			case 34:
+				savestring += "#";
+			break;
+			case 127:
+				savestring += "~";
+			break;
+			case 129:
+				savestring += "€";
+			break;
+			case 141:
+				savestring += "Œ";
+			break;
+			case 143:
+				savestring += "Ž";
+			break;
+			case 144:
+				savestring += "Ž";
+			break;
+			case 157:
+				savestring += "œ";
+			break;
+			case 173:
+				savestring += "¬";
+			break;
+			default:
+				savestring += chr(r);
+			break;
+		}
 	}
 	x ++;
 	if _x < 1
 	{
-		ini_open(game_save_id + writefile + ".mif");
+		ini_open(game_save_id + fname);
 		ini_write_string("mif", string(line), savestring);
 		ini_close();
 		savestring = "";

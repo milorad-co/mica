@@ -1,1 +1,1 @@
-wordstring = "";
+fname = "";

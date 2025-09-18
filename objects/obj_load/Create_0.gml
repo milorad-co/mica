@@ -1,4 +1,4 @@
-wordstring = "";
+fname = "";
 extension = "";
 result = "";
 spr_importedfile = spr_fallback;

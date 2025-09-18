@@ -23,7 +23,7 @@ else
 			global.lastdrawnx = mouse_x;
 			global.lastdrawny = mouse_y;
 		}
-		instance_create_layer(mouse_x, mouse_y, "Instances", obj_drawline, {image_blend: make_colour_rgb(global.red, global.green, global.beans), image_xscale: xscale, image_yscale: yscale, active : 1, xtarget: mouse_x, ytarget: mouse_y, erase: false});
+		instance_create_layer(mouse_x, mouse_y, "Instances", obj_draw, {image_blend: make_colour_rgb(global.red, global.green, global.beans), image_xscale: xscale, image_yscale: yscale});
 	}
 }
 if mouse_wheel_up()
@@ -35,14 +35,6 @@ if mouse_wheel_down()
 {
 	xscale -= 0.1;
 	yscale -= 0.1;
-}
-if global.saving = 1
-{
-	visible = false;
-}
-else
-{
-	visible = true;
 }
 if !(mouse_check_button(mb_left))
 {

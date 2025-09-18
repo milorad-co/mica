@@ -1,5 +1,6 @@
-global.surf = [];
-ini_open(game_save_id + readfile);
+global.target = 0;
+global.surf = [surface_create(1600, 800)];
+ini_open(game_save_id + fname);
 contents = ini_read_string("mif", "main", "!MIF![1600](800)");
 ini_close();
 length = "";
